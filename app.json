@@ -1,5 +1,5 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "ELGENERAL Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
@@ -13,12 +13,12 @@
     ],
     "stack": "container",
     "env": {
-      "API_ID": {
+      "ايدي ايبي": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
-      "API_HASH": {
+      "هاش ايبي": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
@@ -28,47 +28,47 @@
         "value": "True",
         "required": false
       },
-      "BOT_TOKEN": {
+      "بوتك توكن": {
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "مونجو كود": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
         "value": "",
         "required": true
       },
-      "MUSIC_BOT_NAME": {
+      "البوت اسم": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
         "value": "",
         "required": true
       },
-      "OWNER_ID": {
+      "مالك ايدي": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "",
         "required": true
       },
-      "STRING_SESSION": {
+      "كود بايروجرام": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
-      "HEROKU_API_KEY": {
+      "هيروكومفتاح": {
         "description": "Your Heroku account's API key",
         "value": "",
         "required": false
       },
-      "HEROKU_APP_NAME": {
+      "حاجه اول انسخ": {
         "description": "Your heroku app/bot's name",
         "value": "",
         "required": false
       },
-      "LOG_GROUP_ID": {
+      "جروب ايدي": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
       },
-      "UPSTREAM_REPO": {
+      "سيبها زي ما هيا": {
         "description": "If you dont know this, Leave as it is",
         "value": "https://github.com/TeamYukki/YukkiMusicBot",
         "required": true
